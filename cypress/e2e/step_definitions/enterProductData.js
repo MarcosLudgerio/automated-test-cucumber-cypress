@@ -1,6 +1,6 @@
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
 import { LOCATORS_GENERICS } from '../../support/locators';
-import dataInsurant from '../../fixtures/insurantExample.json';
+import productData from '../../fixtures/productDataExample.json';
 
 Given("user is on aba enter product data", () => {
     // cy.title().should('contain', 'Enter Product Data');
@@ -9,7 +9,7 @@ Given("user is on aba enter product data", () => {
 });
 
 When('enter in the form valid values in aba insurant', () => {
-    cy.insertInsurantData(dataInsurant);
+    cy.insertValuesAbaProductData(productData);
 });
 
 When("click on button next aba product", () => {

@@ -1,0 +1,9 @@
+{
+    "start_date": "#startdate",
+    "insurance_sum": "#insurancesum",
+    "merit_rating": "#meritrating",
+    "damage_insurance": "#damageinsurance",
+    "optional_Euro_Protection": "#EuroProtection",
+    "optional_Lega_lDefenseInsurance": "#LegalDefenseInsurance",
+    "courtesy_car": "#courtesycar"
+}
