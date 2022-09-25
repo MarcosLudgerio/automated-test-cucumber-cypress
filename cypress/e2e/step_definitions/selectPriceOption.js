@@ -1,6 +1,5 @@
 import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor';
 import { LOCATORS_GENERICS } from '../../support/locators';
-import productData from '../../fixtures/productDataExample.json';
 
 Given("user is on aba select a price option", () => {
     cy.title().should('contain', 'Select Price Option');
