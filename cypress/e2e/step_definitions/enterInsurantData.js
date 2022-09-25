@@ -4,17 +4,17 @@ import dataInsurant from '../../fixtures/insurantExample.json';
 
 Given("user is on aba enter insurant data", () => {
     cy.acessHomePage();
-    cy.clickOnTheButton(LOCATORS_GENERICS.enterVehicleData.nextButton);
+    cy.clickOnTheButton(LOCATORS_GENERICS.nextButtonInsurant);
 });
 
-When('enter in the form valid values', () => {
-    cy.insertValuesAbaVehicleData(dataInsurant);
+When('enter in the form valid values in aba insurant', () => {
+    cy.insertInsurantData(dataInsurant);
 });
 
-When("click on next button", () => {
-    cy.clickOnTheButton(LOCATORS_GENERICS.enterVehicleData.nextButton);
+When("click on button next aba product", () => {
+    cy.clickOnTheButton(LOCATORS_GENERICS.nextButtonProduct);
 });
 
-Then("the page title should be update", () => {
-    cy.title().should('contain', 'Enter Insurant Data')
+Then("the page title should be update to product", () => {
+    cy.title().should('contain', 'Enter Product Data')
 });
