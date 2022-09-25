@@ -1,5 +1,4 @@
 export const LOCATORS_GENERICS = {
-    enterVehicleData: {
-        nextButton: "#nextenterinsurantdata"
-    }
+    nextButtonInsurant: "#nextenterinsurantdata",
+    nextButtonProduct: "nextenterproductdata"
 }
