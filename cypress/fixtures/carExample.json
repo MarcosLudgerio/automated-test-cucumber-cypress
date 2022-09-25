@@ -1,0 +1,16 @@
+{
+  "make": "Honda",
+  "model": "Scooter",
+  "cylinder": 1,
+  "engine": 1,
+  "dateManufacture": "01/19/2022",
+  "numberSeats": 4,
+  "handDrive": "Yes",
+  "numberSeatsMotocycle": 2,
+  "fuel": "Diesel",
+  "payload": 1,
+  "totalWeight": 400,
+  "listPrice": 501,
+  "plateNumber": "MIT",
+  "annualMileage": 101
+}

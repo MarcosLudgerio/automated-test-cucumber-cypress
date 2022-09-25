@@ -1,0 +1,18 @@
+{
+  "name": "automated-test-cucumber-cypress",
+  "version": "1.0.0",
+  "description": "this is a project for test automated",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marcosludgerio",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^10.8.0",
+    "esbuild": "^0.15.9"
+  }
+}
