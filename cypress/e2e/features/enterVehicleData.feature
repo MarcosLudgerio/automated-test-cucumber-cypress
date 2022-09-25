@@ -27,3 +27,9 @@ Feature: enter vehicle data
     Examples: 
       | option |
       | Gold   |
+
+  Scenario: send a quote with data values
+    Given user is on aba send quote
+    When filling in the submission form with valid data
+    When click on button next send email
+    Then the page message "send sucessful" shold be visible
