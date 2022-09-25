@@ -9,6 +9,10 @@
     "country": "Brazil",
     "city": "Oklahoma",
     "occupation": "Farmer",
+    "hobbies": [
+        "speeding",
+        "skydiving"
+    ],
     "wbsite": "https://sanfordscale.com/",
-    "picture": "profile.png"
+    "picture": "profile.jpg"
 }

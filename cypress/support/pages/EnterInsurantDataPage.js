@@ -15,7 +15,7 @@ const LOCATORS_INSURANT_DATA = {
     hobby_skydiving: "#skydiving",
     hobby_other: "#other",
     wbsite: "#website",
-    picture: "#picture",
+    picture: "#picturecontainer",
     nextButton: "nextenterproductdata"
 };
 
@@ -29,7 +29,13 @@ Cypress.Commands.add('insertInsurantData', (dataInsurant) => {
     cy.insertValue(LOCATORS_INSURANT_DATA.zip_code, dataInsurant.zip_code);
     cy.insertValue(LOCATORS_INSURANT_DATA.city, dataInsurant.city);
     cy.selectValue(LOCATORS_INSURANT_DATA.occupation, dataInsurant.occupation);
+    cy.get('[type="checkbox"]').check(dataInsurant.hobby_skydiving, { force: true });
     cy.insertValue(LOCATORS_INSURANT_DATA.wbsite, dataInsurant.wbsite);
-    cy.insertValue(LOCATORS_INSURANT_DATA.picture, dataInsurant.picture);
+    cy.addPictureInsurant(dataInsurant.picture);
 });
 
+
+Cypress.Commands.add("addPictureInsurant", (fileName) => {
+    cy.get(LOCATORS_INSURANT_DATA.picture).selectFile(fileName, { force: true });
+
+});

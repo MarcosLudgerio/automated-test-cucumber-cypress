@@ -3,8 +3,7 @@ import { LOCATORS_GENERICS } from '../../support/locators';
 import dataInsurant from '../../fixtures/insurantExample.json';
 
 Given("user is on aba enter insurant data", () => {
-    cy.acessHomePage();
-    cy.clickOnTheButton(LOCATORS_GENERICS.nextButtonInsurant);
+    cy.title().should('contain', 'Enter Insurant Data');
 });
 
 When('enter in the form valid values in aba insurant', () => {
@@ -16,5 +15,5 @@ When("click on button next aba product", () => {
 });
 
 Then("the page title should be update to product", () => {
-    cy.title().should('contain', 'Enter Product Data')
+    cy.title().should('contain', 'Enter Product Data');
 });
