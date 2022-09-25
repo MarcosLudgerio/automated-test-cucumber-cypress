@@ -16,19 +16,7 @@ const LOCATORS = {
     nextButton: "#nextenterinsurantdata"
 }
 
-Cypress.Commands.add('selectValue', (field, value) => {
-    cy.get(field).select(value);
-});
-
-Cypress.Commands.add('insertValue', (field, value) => {
-    cy.get(field).type(value);
-});
-
-Cypress.Commands.add('verifyValue', (field, value) => {
-    cy.get(field).should('have.value', value);
-});
-
-Cypress.Commands.add('insertValuesAbaVehicle', (dataCar) => {
+Cypress.Commands.add('insertValuesAbaVehicleData', (dataCar) => {
     cy.selectValue(LOCATORS.make, dataCar.make);
     cy.selectValue(LOCATORS.model, dataCar.model);
     cy.insertValue(LOCATORS.cylinder, dataCar.cylinder);
