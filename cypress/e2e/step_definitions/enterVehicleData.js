@@ -6,7 +6,7 @@ Given("user is on the aba enter vehicle data", () => {
   cy.acessHomePage();
 });
 
-When('enter in the form valid values in aba vehicle', () => {
+When("enter in the form valid values in aba vehicle", () => {
   cy.insertValuesAbaVehicleData(vehicleDataExample);
 });
 

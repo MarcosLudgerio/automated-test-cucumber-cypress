@@ -3,7 +3,6 @@
     "insurance_sum": "3000000",
     "merit_rating": "Bonus 2",
     "damage_insurance": "Partial Coverage",
-    "optional_Euro_Protection": "Euro Protection",
-    "optional_Lega_lDefenseInsurance": "Legal Defense Insurance",
+    "optional_products": "Yes",
     "courtesy_car": "No"
 }

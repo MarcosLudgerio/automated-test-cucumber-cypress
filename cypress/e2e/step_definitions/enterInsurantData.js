@@ -6,7 +6,7 @@ Given("user is on aba enter insurant data", () => {
     cy.title().should('contain', 'Enter Insurant Data');
 });
 
-When('enter in the form valid values in aba insurant', () => {
+When("enter in the form valid values in aba insurant", () => {
     cy.insertInsurantData(insurantData);
 });
 
