@@ -3,10 +3,7 @@ import { LOCATORS_GENERICS } from '../../support/locators';
 import productData from '../../fixtures/productDataExample.json';
 
 Given("user is on aba enter product data", () => {
-    // cy.title().should('contain', 'Enter Product Data');
-    cy.acessHomePage();
-    cy.clickOnTheButton(LOCATORS_GENERICS.nextButtonInsurant);
-    cy.clickOnTheButton(LOCATORS_GENERICS.nextButtonProduct);
+    cy.title().should('contain', 'Enter Product Data');
 });
 
 When("enter in the form valid values in aba product", () => {
