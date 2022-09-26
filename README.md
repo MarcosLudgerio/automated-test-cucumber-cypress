@@ -1,8 +1,8 @@
 <div style="display: flex; justify-content:center; align-items: center">
 <h1>  Automated tests using cucumber in Cypress </h1>
 </div>
-<div style="display: flex; justify-content:center; align-items: center;">
-      <img alt="cypress" src="https://cloud.githubusercontent.com/assets/1268976/20607953/d7ae489c-b24a-11e6-9cc4-91c6c74c5e88.png" />
+<div style="display: flex; justify-content:center;">
+      <img align="center" alt="cypress" src="https://cloud.githubusercontent.com/assets/1268976/20607953/d7ae489c-b24a-11e6-9cc4-91c6c74c5e88.png" />
 </div>
 <br />
 <p align="center">
