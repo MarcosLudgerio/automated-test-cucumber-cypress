@@ -11,6 +11,10 @@ When("enter in the form valid values in aba product", () => {
     productDataPage.insertProductData(productData);
 });
 
+Then("fields product data should be filled", () => {
+    productDataPage.verifyProductData(productData);
+});
+
 When("click on button next aba select price", () => {
     productDataPage.clickOnButton(LOCATORS_GENERICS.nextButtonProduct);
 });

@@ -10,8 +10,11 @@ Given("user is on the aba enter vehicle data", () => {
 
 When("enter in the form valid values in aba vehicle", () => {
   vehicleDataPage.insertVehicleDatas(vehicleDataExample);
-
 });
+
+Then("fields vehicle should be filled", () => {
+  vehicleDataPage.verifyVehicleData(vehicleDataExample);
+})
 
 When("click on button next insurant", () => {
   vehicleDataPage.clickOnButton(LOCATORS_GENERICS.nextButtonProduct);

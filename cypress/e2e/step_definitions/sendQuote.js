@@ -11,6 +11,11 @@ When("filling in the submission form with valid data", () => {
     sendQuotePage.enterFormSendQuote(sendQuote);
 });
 
+Then("fields send quote should be filled", () => {
+    sendQuotePage.verifySendData(sendQuote);
+
+});
+
 When("click on button next send email", () => {
     sendQuotePage.clickOnButton(LOCATORS_GENERICS.buttonSendEmail);
 });

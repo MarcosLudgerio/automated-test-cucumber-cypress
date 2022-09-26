@@ -10,6 +10,10 @@ When("select a option {string}", (option) => {
     priceOptionPage.selectOption(option);
 });
 
+Then("the option should be selected", () => {
+    priceOptionPage.verifyOptionSelected();
+});
+
 When("click on button next send quote", () => {
     priceOptionPage.clickOnButton(LOCATORS_GENERICS.nextButtonProduct);
 });
