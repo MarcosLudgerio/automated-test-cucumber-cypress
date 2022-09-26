@@ -12,12 +12,11 @@ When("filling in the submission form with valid data", () => {
 
 When("click on button next send email", () => {
     // cy.clickOnTheButton(LOCATORS_GENERICS.buttonSendEmail);
-    cy.get('button.prev').click();
+    cy.get(LOCATORS_GENERICS.buttonSendEmail).click();
 });
 
 Then("the page message {string} shold be visible", (message) => {
-    // cy.get(LOCATORS_GENERICS.sendingEmailSuccess).as("successMessage")
-    // // cy.get(LOCATORS_GENERICS.sendingEmailSuccess).should('contain', 'Sending e-mail success!');
-    // cy.wait('@successMessage').should('contain', message);
-    console.log("ola")
+    cy.get(LOCATORS_GENERICS.sendingEmailSuccess, { timeout: 20000 }).then($toast => {
+        expect($toast.text()).to.contain(message);
+    });
 });

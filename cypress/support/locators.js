@@ -4,5 +4,5 @@ export const LOCATORS_GENERICS = {
     nextButtonPrice: "#nextselectpriceoption",
     nextButtonSendQuote: "#nextsendquote",
     buttonSendEmail: "#sendemail",
-    sendingEmailSuccess: '#ui-datepicker-div > h2'
+    sendingEmailSuccess: 'h2'
 }
