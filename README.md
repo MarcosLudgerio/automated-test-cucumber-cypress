@@ -66,8 +66,8 @@ $ npm run cypress
 ## 👩‍💻 Author 
 
 <table>
-   <tr>
-     <td style="display: flex; justify-content:center;">
+   <tr align="center">
+     <td>
         <a href="https://github.com/MarcosLudgerio">
          <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/43012976?s=460&u=1163c04d9f35b577063b3f6550ae520c4dd2f866&v=4" width="100px;" alt=""/>
         </a>
