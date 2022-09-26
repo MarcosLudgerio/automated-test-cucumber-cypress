@@ -11,8 +11,7 @@ When("filling in the submission form with valid data", () => {
 });
 
 When("click on button next send email", () => {
-    // cy.clickOnTheButton(LOCATORS_GENERICS.buttonSendEmail);
-    cy.get(LOCATORS_GENERICS.buttonSendEmail).click();
+    cy.clickOnTheButton(LOCATORS_GENERICS.buttonSendEmail);
 });
 
 Then("the page message {string} shold be visible", (message) => {

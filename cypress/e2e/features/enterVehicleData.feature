@@ -1,4 +1,4 @@
-Feature: enter vehicle data
+Feature: Apply for vehicle insurance
 
   Scenario: insert valid values in vehicle data form
     Given user is on the aba enter vehicle data

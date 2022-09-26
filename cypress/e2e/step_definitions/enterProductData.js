@@ -8,7 +8,6 @@ Given("user is on aba enter product data", () => {
 
 When("enter in the form valid values in aba product", () => {
     cy.insertValuesAbaProductData(productData);
-
 });
 
 When("click on button next aba select price", () => {
