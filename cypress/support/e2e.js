@@ -15,10 +15,5 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands';
-import './pages/EnterVehicleDataPage';
-import './pages/EnterInsurantDataPage';
-import './pages/EnterProductDataPage';
-import './pages/SelectPriceOptionPage';
-import './pages/SendQuotePage';
 // Alternatively you can use CommonJS syntax:
 // require('./commands')

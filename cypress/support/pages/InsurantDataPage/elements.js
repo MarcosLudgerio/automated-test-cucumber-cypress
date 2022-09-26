@@ -1,0 +1,21 @@
+export const LOCATORS_INSURANT_DATA = {
+    first_name: "#firstname",
+    last_name: "#lastname",
+    birthdate: "#birthdate",
+    gender_male: '[type="radio"]',
+    gender_female: "#genderfemale",
+    address: "#streetaddress",
+    zip_code: "#zipcode",
+    country: "#country",
+    city: "#city",
+    occupation: "#occupation",
+    hobby_speding: "#speeding",
+    hobby_bungee_jumping: "#bungeejumping",
+    hobby_cliff_diving: "#cliffdiving",
+    hobby_skydiving: "#skydiving",
+    hobby_other: "#other",
+    hobbies: '[type="checkbox"]',
+    wbsite: "#website",
+    picture: "#picturecontainer",
+    nextButton: "nextenterproductdata"
+};

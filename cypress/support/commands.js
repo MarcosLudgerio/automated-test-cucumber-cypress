@@ -25,7 +25,7 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 Cypress.Commands.add("clickOnTheButton", (locator) => {
-    cy.get(locator).click();
+    cy.get(locator).click({ force: true });
 });
 
 Cypress.Commands.add('acessHomePage', () => {
@@ -45,7 +45,5 @@ Cypress.Commands.add('verifyValue', (field, value) => {
 });
 
 Cypress.on('uncaught:exception', (err, runnable) => {
-    // returning false here prevents Cypress from
-    // failing the test
-    return false
+    return false;
 })
