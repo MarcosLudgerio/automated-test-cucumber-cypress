@@ -45,16 +45,17 @@ A feature was guided considering the following scenarios:
 
 Run the commands below in the terminal:
 
-1. Opening cypress runner:
+### 1. Opening cypress runner:
 ```sh
 $ git clone https://github.com/MarcosLudgerio/automated-test-cucumber-cypress.git
 $ npm install
 $ npm run cypress
 ```
-## 2. Selecting the type E2E Testing:
-![Select type text](https://raw.githubusercontent.com/MarcosLudgerio/automated-test-cucumber-cypress/main/screenshots/selecting-type-test.png)
+### 2. Selecting the type E2E Testing:
 
-### 1. Selecting the browser
+<img src="https://raw.githubusercontent.com/MarcosLudgerio/automated-test-cucumber-cypress/main/screenshots/selecting-type-test.png" alt="Select type text" width="500" height="600"/>
+
+### 3. Selecting the browser
 ![Select the browser](https://raw.githubusercontent.com/MarcosLudgerio/automated-test-cucumber-cypress/main/screenshots/selecting-browser.png)
 
 ### 4. Running the test case
