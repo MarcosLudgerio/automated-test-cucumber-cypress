@@ -51,14 +51,14 @@ $ git clone https://github.com/MarcosLudgerio/automated-test-cucumber-cypress.gi
 $ npm install
 $ npm run cypress
 ```
-2. Selecting the type E2E Testing:
+## 2. Selecting the type E2E Testing:
 ![Select type text](https://raw.githubusercontent.com/MarcosLudgerio/automated-test-cucumber-cypress/main/screenshots/selecting-type-test.png)
 
-1. Selecting the browser
+### 1. Selecting the browser
 ![Select the browser](https://raw.githubusercontent.com/MarcosLudgerio/automated-test-cucumber-cypress/main/screenshots/selecting-browser.png)
 
-4. Running the test case
-[Running a test case](https://raw.githubusercontent.com/MarcosLudgerio/automated-test-cucumber-cypress/main/screenshots/running-feature.png)
+### 4. Running the test case
+![Running a test case](https://raw.githubusercontent.com/MarcosLudgerio/automated-test-cucumber-cypress/main/screenshots/running-feature.png)
 
 <div id="autor" />
 
