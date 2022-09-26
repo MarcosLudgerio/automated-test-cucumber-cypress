@@ -52,13 +52,13 @@ $ npm install
 $ npm run cypress
 ```
 2. Selecting the type E2E Testing:
-[imagem]()
+![Select type text](https://raw.githubusercontent.com/MarcosLudgerio/automated-test-cucumber-cypress/main/screenshots/selecting-type-test.png)
 
-3. Selecting the browser
-[imagem]()
+1. Selecting the browser
+![Select the browser](https://raw.githubusercontent.com/MarcosLudgerio/automated-test-cucumber-cypress/main/screenshots/selecting-browser.png)
 
 4. Running the test case
-[imagem]()
+[Running a test case](https://raw.githubusercontent.com/MarcosLudgerio/automated-test-cucumber-cypress/main/screenshots/running-feature.png)
 
 <div id="autor" />
 
@@ -66,7 +66,7 @@ $ npm run cypress
 
 <table>
    <tr>
-     <td align="center">
+     <td align="center" display="flex" style="justify-content:center;">
         <a href="https://github.com/MarcosLudgerio">
          <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/43012976?s=460&u=1163c04d9f35b577063b3f6550ae520c4dd2f866&v=4" width="100px;" alt=""/>
         </a>
