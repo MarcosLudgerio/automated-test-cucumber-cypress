@@ -9,7 +9,7 @@
  <a href="#desc">Description</a> •
  <a href="#features">Tests</a> •
  <a href="#tecnologias">Techs</a> • 
- <a href="#executando">Run tests</a> • 
+ <a href="#executando">Running the tests</a> • 
  <a href="#autor">Author</a>
 </p>
 
@@ -41,20 +41,28 @@ A feature was guided considering the following scenarios:
   
 <div id="executando" />
 
-## ▶️ Executando o projeto
+## ▶️ Running the tests
 
-Execute no terminal os comandos abaixo
+Run the commands below in the terminal:
 
+1. Opening cypress runner:
 ```sh
-$ git clone https://github.com/MarcosLudgerio/test-api-python.git
-$ cd test-api-python
-$ pip install
-$ pytest
+$ git clone https://github.com/MarcosLudgerio/automated-test-cucumber-cypress.git
+$ npm install
+$ npm run cypress
 ```
+2. Selecting the type E2E Testing:
+[imagem]()
+
+3. Selecting the browser
+[imagem]()
+
+4. Running the test case
+[imagem]()
 
 <div id="autor" />
 
-## 👩‍💻 Autor 
+## 👩‍💻 Author 
 
 <table>
    <tr>
@@ -66,16 +74,3 @@ $ pytest
      </td>
    </tr>
 </table>
-
-==========================================================================
-spring.datasource.url=jdbc:postgresql://localhost:5432/apiTest
-spring.datasource.username=postgres
-spring.datasource.password=1234
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
-
-
-=======================================================================
-
