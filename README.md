@@ -1,10 +1,10 @@
-<div align="center" display="flex" style="justify-content:flex-start;">
-<h1>  Autometed tests using cucumber in Cypress </h1>
+<div style="display: flex; justify-content:center;">
+<h1>  Automated tests using cucumber in Cypress </h1>
 </div>
-<div align="center" display="flex" style="justify-content:flex-start;">
-      <img align="center" alt="cypress" src="https://cloud.githubusercontent.com/assets/1268976/20607953/d7ae489c-b24a-11e6-9cc4-91c6c74c5e88.png" />
+<div style="display: flex; justify-content:flex-start;">
+      <img alt="cypress" src="https://cloud.githubusercontent.com/assets/1268976/20607953/d7ae489c-b24a-11e6-9cc4-91c6c74c5e88.png" />
 </div>
-
+<br />
 <p align="center">
  <a href="#desc">Description</a> •
  <a href="#features">Tests</a> •
@@ -67,7 +67,7 @@ $ npm run cypress
 
 <table>
    <tr>
-     <td align="center" display="flex" style="justify-content:center;">
+     <td style="display: flex; justify-content:center;">
         <a href="https://github.com/MarcosLudgerio">
          <img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/43012976?s=460&u=1163c04d9f35b577063b3f6550ae520c4dd2f866&v=4" width="100px;" alt=""/>
         </a>
