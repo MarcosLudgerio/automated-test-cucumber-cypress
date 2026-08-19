@@ -10,9 +10,9 @@
   "author": "marcosludgerio",
   "license": "ISC",
   "devDependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^13.0.2",
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
     "cypress": "^10.8.0",
-    "esbuild": "^0.15.9"
+    "esbuild": "^0.25.0"
   }
 }
